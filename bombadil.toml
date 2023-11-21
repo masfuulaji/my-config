@@ -12,4 +12,8 @@ dotfiles_dir = "Documents/my_config"
 # posthooks = [ "sway reload" ]
 
 [settings.dots]
+alacritty = { source = "alacritty", target = ".config/alacritty" }
+kitty = { source = "kitty", target = ".config/kitty" }
+nvim = { source = "nvim", target = ".config/nvim" }
+tmux = { source = "tmux", target = ".config/tmux" }
 
