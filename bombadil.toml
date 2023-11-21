@@ -1,0 +1,15 @@
+# {dotfiles}/bombadil.toml
+
+# Path to your dotfiles relative to your $HOME directory
+dotfiles_dir = "Documents/my_config"
+
+[settings]
+# An array of toml files paths containing the variables to inject in your templatized dotfiles
+# You can have multiple var files as long as variable names does not colide.
+# vars = [ "vars.toml" ]
+
+# An array of post install shell commands
+# posthooks = [ "sway reload" ]
+
+[settings.dots]
+
