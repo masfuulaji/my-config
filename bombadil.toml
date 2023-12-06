@@ -1,7 +1,7 @@
 # {dotfiles}/bombadil.toml
 
 # Path to your dotfiles relative to your $HOME directory
-dotfiles_dir = "Documents/my_config"
+dotfiles_dir = "Documents/my-config"
 
 [settings]
 # An array of toml files paths containing the variables to inject in your templatized dotfiles
@@ -16,4 +16,5 @@ alacritty = { source = "alacritty", target = ".config/alacritty" }
 kitty = { source = "kitty", target = ".config/kitty" }
 nvim = { source = "nvim", target = ".config/nvim" }
 tmux = { source = "tmux", target = ".config/tmux" }
+neofetch = { source = "neofetch", target = ".config/neofetch" }
 
