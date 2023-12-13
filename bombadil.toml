@@ -17,4 +17,5 @@ kitty = { source = "kitty", target = ".config/kitty" }
 nvim = { source = "nvim", target = ".config/nvim" }
 tmux = { source = "tmux", target = ".config/tmux" }
 neofetch = { source = "neofetch", target = ".config/neofetch" }
+fish = { source = "fish", target = ".config/fish" }
 
