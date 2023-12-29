@@ -1,0 +1,17 @@
+import = [
+    "~/.config/alacritty/themes/themes/ayu_dark.toml"
+]
+
+[window]
+opacity = 0.8
+
+[font]
+size = 10
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+vi_mode_style = { shape = "Underline", blinking = "Always" }
+blink_interval = 500
+blink_timeout = 240
+
+
