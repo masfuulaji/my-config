@@ -2,6 +2,7 @@
 -- Video Tutorials: https://www.youtube.com/watch?v=sFA9kX-Ud_c&list=PLhoH5vyxr6QqGu0i7tt_XoVK9v-KvZ3m6
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
+lvim.colorscheme = "tokyonight-night"
 lvim.transparent_window = true
 
 lvim.plugins = {
@@ -30,6 +31,12 @@ lvim.plugins = {
   },
   {
     "HiPhish/nvim-ts-rainbow2"
+  },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
   }
 }
 
@@ -39,3 +46,6 @@ lvim.keys.normal_mode["<C-h>"] = { "<Cmd>NvimTmuxNavigateLeft<CR>", desc = "Tmux
 lvim.keys.normal_mode["<C-l>"] = { "<Cmd>NvimTmuxNavigateRight<CR>", desc = "Tmux Navigate Right" }
 lvim.keys.normal_mode["<C-j>"] = { "<Cmd>NvimTmuxNavigateDown<CR>", desc = "Tmux Navigate Down" }
 lvim.keys.normal_mode["<C-k>"] = { "<Cmd>NvimTmuxNavigateUp<CR>", desc = "Tmux Navigate Up" }
+
+lvim.keys.normal_mode["<Tab>"] = { "<Cmd>BufferLineCycleNext<CR>", desc = "Next Buffer" }
+lvim.keys.normal_mode["<S-Tab>"] = { "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev Buffer" }
