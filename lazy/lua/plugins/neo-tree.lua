@@ -17,5 +17,10 @@ return {
         desc = "Close Explorer",
       },
     },
+    opts = {
+      window = {
+        position = "right",
+      },
+    },
   },
 }
