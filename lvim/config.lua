@@ -40,6 +40,8 @@ lvim.plugins = {
   }
 }
 
+vim.filetype.add({ extension = { templ = "templ" } })
+
 lvim.builtin.treesitter.rainbow.enable = true
 
 lvim.keys.normal_mode["<C-h>"] = { "<Cmd>NvimTmuxNavigateLeft<CR>", desc = "Tmux Navigate Left" }
